@@ -44,7 +44,13 @@
 <header class="w3-container w3-blue w3-center" style="padding:128px 16px">
     <h1 class="w3-margin w3-jumbo">M.E. WEB APP</h1>
     <p class="w3-xlarge">SYSTEMS ENGINEERING | ME DEP'T</p>
-    <button class="w3-button w3-light-blue w3-padding-large w3-large w3-margin-top" onclick="scrollToSection('aboutSection')">Get Started</button>
+    <button class="w3-button w3-light-blue w3-padding-large w3-large w3-margin-top" onclick="redirectToURL()">Get Started</button>
+
+<script>
+    function redirectToURL() {
+        window.location.href = "https://me-systems.streamlit.app/";
+    }
+</script>
 </header>
 
 <!-- First Grid -->
